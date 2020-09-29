@@ -1,2 +1,2 @@
-# jenkins-operator-assests
-Hosting Jenkins Operator assests like images or CSS files.
+# jenkins-operator-assets
+Hosting Jenkins Operator assets like images or CSS files.
