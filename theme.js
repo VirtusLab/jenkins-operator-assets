@@ -10,8 +10,8 @@ function removeJenkinsLogo(logoDiv){
 
 function createJOSLogo(){
     let josLogoImg = document.createElement("IMG");
-    josLogoImg.setAttribute('src', 'https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jos-logo.png');
-    josLogoImg.setAttribute('alt', 'Jenkins Kubernetes Operator Icon');
+    josLogoImg.setAttribute('src', 'https://rawcdn.githack.com/VirtusLab/jenkins-operator-assets/ac9bf802864a49dd60b5159b755e6f88fb61e1f4/img/jos-logo.png');
+    josLogoImg.setAttribute('alt', 'Jenkins Operator Service Icon');
     josLogoImg.setAttribute('height', '60px');
     josLogoImg.setAttribute('width', 'auto');
 
