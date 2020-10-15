@@ -2790,12 +2790,14 @@ input.setting-input, textarea.setting-input,
 select.setting-input {
     border: 2px solid #CEEAF9;
 }
-#add-item-panel .categories .category
+#add-item-panel .categories .category,
+#main-panel form.jenkins-config
 {
     background-color: #FEF8F1;
 }
 .add-item-name, #add-item-panel .item-copy,
-#add-item-panel form > .footer
+#add-item-panel form > .footer,
+.form-config.tabBarFrame
 {
     background-color: #FCEFDF;
 }
@@ -2833,4 +2835,31 @@ select.setting-input {
 {
     border: 2px solid #CEEAF9;
     border-radius: 5px;
+}
+
+/**-----------------------------------------------------
+                  JENKINS CONFIG FORM
+-----------------------------------------------------**/
+
+#main-panel .form-config.tabBarFrame .tab.config-section-activator{
+    background-color: #FCEFDF;
+    color: #060A41;
+}
+
+#main-panel .form-config.tabBarFrame .tab.config-section-activator:hover{
+    background-color: #f5f1ec;
+    color: #060A41;
+}
+
+table.config-table.scrollspy {
+    display: block;
+    width: 100%;
+}
+
+table.config-table tr {
+    display: flex;
+}
+
+table.config-table td {
+    display: block;
 }
