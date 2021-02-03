@@ -1,23 +1,23 @@
 document.addEventListener("DOMContentLoaded", function(event) { 
     let logoDiv = document.querySelector(".logo");
     removeJenkinsLogo(logoDiv);
-    logoDiv.appendChild(createJOSLogo());
+    logoDiv.appendChild(createOSJLogo());
 });
 
 function removeJenkinsLogo(logoDiv){
     logoDiv.removeChild(logoDiv.querySelector("#jenkins-home-link"));
 }
 
-function createJOSLogo(){
-    let josLogoImg = document.createElement("IMG");
-    josLogoImg.setAttribute('src', 'https://rawcdn.githack.com/VirtusLab/jenkins-operator-assets/ac9bf802864a49dd60b5159b755e6f88fb61e1f4/img/jos-logo.png');
-    josLogoImg.setAttribute('alt', 'Jenkins Operator Service Icon');
-    josLogoImg.setAttribute('height', '60px');
-    josLogoImg.setAttribute('width', 'auto');
+function createOSJLogo(){
+    let osjLogoImg = document.createElement("IMG");
+    osjLogoImg.setAttribute('src', 'https://rawcdn.githack.com/VirtusLab/jenkins-operator-assets/ac9bf802864a49dd60b5159b755e6f88fb61e1f4/img/osj-logo.png');
+    osjLogoImg.setAttribute('alt', 'Operator Service for Jenkins Icon');
+    osjLogoImg.setAttribute('height', '60px');
+    osjLogoImg.setAttribute('width', 'auto');
 
-    let josLogoLink = document.createElement("a");
-    josLogoLink.appendChild(josLogoImg);
-    josLogoLink.setAttribute('href', '/');
+    let osjLogoLink = document.createElement("a");
+    osjLogoLink.appendChild(osjLogoImg);
+    osjLogoLink.setAttribute('href', '/');
 
-    return josLogoLink;
+    return osjLogoLink;
 }
