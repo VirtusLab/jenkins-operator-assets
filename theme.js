@@ -10,7 +10,7 @@ function removeJenkinsLogo(logoDiv){
 
 function createOSJLogo(){
     let osjLogoImg = document.createElement("IMG");
-    osjLogoImg.setAttribute('src', 'https://rawcdn.githack.com/VirtusLab/jenkins-operator-assets/ac9bf802864a49dd60b5159b755e6f88fb61e1f4/img/osj-logo.png');
+    osjLogoImg.setAttribute('src', 'https://rawcdn.githack.com/VirtusLab/jenkins-operator-assets/dd3acbf1ecdc0cffc9102b1b537c17ef98a12d90/img/osj-logo.png');
     osjLogoImg.setAttribute('alt', 'Operator Service for Jenkins Icon');
     osjLogoImg.setAttribute('height', '60px');
     osjLogoImg.setAttribute('width', 'auto');
