@@ -56,73 +56,82 @@
 .icon-new-package,
 [src$="new-package.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTMgN2gtMnY0SDd2Mmg0djRoMnYtNGg0di0yaC00Vjd6bS0xLTVDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgMThjLTQuNDEgMC04LTMuNTktOC04czMuNTktOCA4LTggOCAzLjU5IDggOC0zLjU5IDgtOCA4eiIvPjwvc3ZnPg==);
-    filter: invert(70%) sepia(45%) saturate(403%) hue-rotate(110deg) brightness(170%) contrast(70%);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-user,
 [src$="user.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+PC9zdmc+);
-    filter: invert(70%) sepia(45%) saturate(403%) hue-rotate(110deg) brightness(170%) contrast(70%);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-notepad,
 [src$="notepad.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTMgM2E5IDkgMCAwIDAtOSA5SDFsMy44OSAzLjg5LjA3LjE0TDkgMTJINmMwLTMuODcgMy4xMy03IDctN3M3IDMuMTMgNyA3LTMuMTMgNy03IDdjLTEuOTMgMC0zLjY4LS43OS00Ljk0LTIuMDZsLTEuNDIgMS40MkE4Ljk1NCA4Ljk1NCAwIDAgMCAxMyAyMWE5IDkgMCAwIDAgMC0xOHptLTEgNXY1bDQuMjggMi41NC43Mi0xLjIxLTMuNS0yLjA4VjhIMTJ6Ii8+PC9zdmc+);
-    filter: invert(70%) sepia(45%) saturate(403%) hue-rotate(110deg) brightness(170%) contrast(70%);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-gear2,
 .icon-setting,
 [src$="gear2.png"],
 [src$="setting.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTkuNDMgMTIuOThjLjA0LS4zMi4wNy0uNjQuMDctLjk4cy0uMDMtLjY2LS4wNy0uOThsMi4xMS0xLjY1Yy4xOS0uMTUuMjQtLjQyLjEyLS42NGwtMi0zLjQ2Yy0uMTItLjIyLS4zOS0uMy0uNjEtLjIybC0yLjQ5IDFjLS41Mi0uNC0xLjA4LS43My0xLjY5LS45OGwtLjM4LTIuNjVBLjQ4OC40ODggMCAwIDAgMTQgMmgtNGMtLjI1IDAtLjQ2LjE4LS40OS40MmwtLjM4IDIuNjVjLS42MS4yNS0xLjE3LjU5LTEuNjkuOThsLTIuNDktMWMtLjIzLS4wOS0uNDkgMC0uNjEuMjJsLTIgMy40NmMtLjEzLjIyLS4wNy40OS4xMi42NGwyLjExIDEuNjVjLS4wNC4zMi0uMDcuNjUtLjA3Ljk4cy4wMy42Ni4wNy45OGwtMi4xMSAxLjY1Yy0uMTkuMTUtLjI0LjQyLS4xMi42NGwyIDMuNDZjLjEyLjIyLjM5LjMuNjEuMjJsMi40OS0xYy41Mi40IDEuMDguNzMgMS42OS45OGwuMzggMi42NWMuMDMuMjQuMjQuNDIuNDkuNDJoNGMuMjUgMCAuNDYtLjE4LjQ5LS40MmwuMzgtMi42NWMuNjEtLjI1IDEuMTctLjU5IDEuNjktLjk4bDIuNDkgMWMuMjMuMDkuNDkgMCAuNjEtLjIybDItMy40NmMuMTItLjIyLjA3LS40OS0uMTItLjY0bC0yLjExLTEuNjV6TTEyIDE1LjVjLTEuOTMgMC0zLjUtMS41Ny0zLjUtMy41czEuNTctMy41IDMuNS0zLjUgMy41IDEuNTcgMy41IDMuNS0xLjU3IDMuNS0zLjUgMy41eiIvPjwvc3ZnPg==);
-    filter: invert(70%) sepia(45%) saturate(403%) hue-rotate(110deg) brightness(170%) contrast(70%);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-up,
 .task-icon-link[href="/"] img {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMjAgMTFINy44M2w1LjU5LTUuNTlMMTIgNGwtOCA4IDggOCAxLjQxLTEuNDFMNy44MyAxM0gyMHYtMnoiLz48L3N2Zz4=);
-    filter: invert(70%) sepia(45%) saturate(403%) hue-rotate(110deg) brightness(170%) contrast(70%);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-edit-delete {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNNiAxOWMwIDEuMS45IDIgMiAyaDhjMS4xIDAgMi0uOSAyLTJWN0g2djEyek0xOSA0aC0zLjVsLTEtMWgtNWwtMSAxSDV2MmgxNFY0eiIvPjwvc3ZnPg==);
-    filter: invert(70%) sepia(45%) saturate(403%) hue-rotate(110deg) brightness(170%) contrast(70%);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-fingerprint,
 [src$="fingerprint.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjOUU5RTlFIj48cGF0aCBkPSJNMTEuODMgMS43M2MtMy40LjA2LTUuNiAxLjU5LTUuNiAxLjU5LS4yOC4xOC0uMzUuNTktLjE2Ljg3LjIuMzEuNTkuMzYuODkuMTUgMCAwIDQuMzEtMy4xOSAxMC41LjA0LjI5LjE3LjY4LjA3Ljg1LS4yMy4xOS0uMy4wNi0uNjgtLjI4LS44Ny0xLjY3LS44OC0zLjI1LTEuMzItNC42Ny0xLjQ4LS41My0uMDYtMS4wNC0uMDgtMS41My0uMDdtLjM5IDIuNjFjLTUuOTYtLjA4LTguODEgNC43MS04LjgxIDQuNzEtLjE5LjI5LS4xMS42Ny4xNy44Ni4yOS4xOS42OC4wOS45Mi0uMjMgMCAwIDIuNDItNC4xOCA3LjctNC4wOSA1LjMuMDcgNy42MiA0LjA2IDcuNjIgNC4wNi4xOC4yOS41Ni4zOS44Ni4yMi4zMi0uMTguMzktLjU2LjIyLS44NyAwIDAtMi43NS00LjU4LTguNjgtNC42Nm0tLjcyIDIuNDhjLTEuNjguMTItMy4yOS43My00LjUgMS43NEM0LjYyIDEwLjUzIDMuMSAxNC4xNCA0Ljc3IDE5Yy4xMS4zMy40Ny41LjguMzkuMzItLjExLjUtLjQ3LjM4LS43OS0xLjU0LTQuNDctLjE3LTcuNCAxLjg1LTkuMSAxLjk3LTEuNjEgNS40NS0yIDguMDQtLjQgMS4yNy44IDIuMjYgMi4xOCAyLjc2IDMuNTQuNTEgMS4zNi40OCAyLjY4LjA3IDMuMy0uNDIuNjUtMS4yNy44OS0yLjAyLjctLjc1LS4xOS0xLjM2LS43My0xLjM5LTEuODctLjAzLTEuNzEtMS4zNy0yLjc3LTIuNzYtMi45My0xLjM0LS4xNi0yLjg5LjU2LTMuMjkgMi4xNi0uNzYgMi45MiAxLjE1IDcuMDcgNS41NyA4LjQ1LjMzLjEuNjgtLjA4Ljc5LS40MS4xLS4zMy0uMDctLjY5LS40Mi0uNzktMy44My0xLjE5LTUuMjgtNC44Mi00LjczLTYuOTYuMjQtLjk2IDEuMDgtMS4yOSAxLjk2LTEuMjEuODcuMSAxLjYyLjYyIDEuNjIgMS43MS4wNSAxLjY0IDEuMTIgMi43NSAyLjM0IDMuMDYgMS4yMi4zMSAyLjYzLS4wOCAzLjM4LTEuMjMuNzgtMS4xNy42NS0yLjgyLjA2LTQuNDEtLjYtMS42LTEuNzEtMy4xOC0zLjI4LTQuMTdhOC4zNCA4LjM0IDAgMCAwLTUtMS4yMm0uMzYgMi40M3YuMDFjLTEuNzguMDYtMy41Ni45OC00LjU4IDIuOTItMS4zMiAyLjQ5LS43MiA1LjAzLjE2IDYuODYuODkgMS44NCAyLjEgMy4wNiAyLjEgMy4wNi4yNC4yNS42My4yNS44OC4wMXMuMjUtLjYxLjAxLS44OGMwIDAtMS4wNy0xLjEtMS44Ni0yLjczcy0xLjI3LTMuNjktLjE5LTUuNzNjMS4xMi0yLjEgMy4xMi0yLjYxIDQuODgtMi4xIDEuNzguNTIgMy4yNyAyLjA3IDMuMjQgNC4zNi0uMDQuMzUuMjEuNjUuNTYuNjcuMzQuMDMuNjQtLjIzLjY3LS42NC4wNi0yLjg2LTEuODYtNC45My00LjEyLTUuNTlhNS43NiA1Ljc2IDAgMCAwLTEuNzUtLjIybS4yMiA1Yy0uMzUuMDEtLjYyLjMtLjYxLjY0IDAgMCAuMDMgMS40OC44NCAyLjkxLjg0IDEuNDMgMi42MiAyLjc5IDUuNzIgMi41LjM0LS4wMi42MS0uMy41OS0uNjYtLjAyLS4zNS0uMzItLjYxLS43MS0uNTgtMi43Mi4yNS0zLjg3LS43OC00LjUyLTEuODktLjY1LTEuMS0uNjctMi4yOS0uNjctMi4yOWEuNjMuNjMgMCAwIDAtLjY0LS42M3oiLz48L3N2Zz4=);
-    filter: invert(70%) sepia(45%) saturate(403%) hue-rotate(110deg) brightness(170%) contrast(70%);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-graph,
 [src$="graph.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6TTkgMTdIN3YtN2gydjd6bTQgMGgtMlY3aDJ2MTB6bTQgMGgtMnYtNGgydjR6Ii8+PC9zdmc+);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-collapse {
+    filter: invert(70%) sepia(45%) saturate(403%) hue-rotate(110deg) brightness(170%) contrast(70%);
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTIgOGwtNiA2IDEuNDEgMS40MUwxMiAxMC44M2w0LjU5IDQuNThMMTggMTR6Ii8+PC9zdmc+);
 }
 .icon-expand {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTYuNTkgOC41OUwxMiAxMy4xNyA3LjQxIDguNTkgNiAxMGw2IDYgNi02eiIvPjwvc3ZnPg==);
+    filter: invert(70%) sepia(45%) saturate(403%) hue-rotate(110deg) brightness(170%) contrast(70%);
 }
 .icon-help,
 [src$="help.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTEgMThoMnYtMmgtMnYyem0xLTE2QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHptMC0xNGE0IDQgMCAwIDAtNCA0aDJjMC0xLjEuOS0yIDItMnMyIC45IDIgMmMwIDItMyAxLjc1LTMgNWgyYzAtMi4yNSAzLTIuNSAzLTVhNCA0IDAgMCAwLTQtNHoiLz48L3N2Zz4=);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-lock,
 .icon-secure,
 [src$="secure.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTggOGgtMVY2YzAtMi43Ni0yLjI0LTUtNS01UzcgMy4yNCA3IDZ2Mkg2Yy0xLjEgMC0yIC45LTIgMnYxMGMwIDEuMS45IDIgMiAyaDEyYzEuMSAwIDItLjkgMi0yVjEwYzAtMS4xLS45LTItMi0yem0tNiA5Yy0xLjEgMC0yLS45LTItMnMuOS0yIDItMiAyIC45IDIgMi0uOSAyLTIgMnptMy4xLTlIOC45VjZjMC0xLjcxIDEuMzktMy4xIDMuMS0zLjEgMS43MSAwIDMuMSAxLjM5IDMuMSAzLjF2MnoiLz48L3N2Zz4=);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-plugin,
 [src$="plugin.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMjAuNSAxMUgxOVY3YzAtMS4xLS45LTItMi0yaC00VjMuNWEyLjUgMi41IDAgMCAwLTUgMFY1SDRjLTEuMSAwLTEuOTkuOS0xLjk5IDJ2My44SDMuNWMxLjQ5IDAgMi43IDEuMjEgMi43IDIuN3MtMS4yMSAyLjctMi43IDIuN0gyVjIwYzAgMS4xLjkgMiAyIDJoMy44di0xLjVhMi43IDIuNyAwIDAgMSAyLjctMi43IDIuNyAyLjcgMCAwIDEgMi43IDIuN1YyMkgxN2MxLjEgMCAyLS45IDItMnYtNGgxLjVhMi41IDIuNSAwIDAgMCAwLTV6Ii8+PC9zdmc+);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-system-log-out,
 [src$="system-log-out.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTMgM2gtMnYxMGgyVjN6bTQuODMgMi4xN2wtMS40MiAxLjQyQTYuOTIgNi45MiAwIDAgMSAxOSAxMmMwIDMuODctMy4xMyA3LTcgN0E2Ljk5NSA2Ljk5NSAwIDAgMSA3LjU4IDYuNThMNi4xNyA1LjE3QTguOTMyIDguOTMyIDAgMCAwIDMgMTJhOSA5IDAgMCAwIDE4IDBjMC0yLjc0LTEuMjMtNS4xOC0zLjE3LTYuODN6Ii8+PC9zdmc+);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-refresh,
 [src$="refresh.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTcuNjUgNi4zNUE3Ljk1OCA3Ljk1OCAwIDAgMCAxMiA0Yy00LjQyIDAtNy45OSAzLjU4LTcuOTkgOHMzLjU3IDggNy45OSA4YzMuNzMgMCA2Ljg0LTIuNTUgNy43My02aC0yLjA4QTUuOTkgNS45OSAwIDAgMSAxMiAxOGMtMy4zMSAwLTYtMi42OS02LTZzMi42OS02IDYtNmMxLjY2IDAgMy4xNC42OSA0LjIyIDEuNzhMMTMgMTFoN1Y0bC0yLjM1IDIuMzV6Ii8+PC9zdmc+);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-computer,
 [src$="computer.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMjAgMThjMS4xIDAgMS45OS0uOSAxLjk5LTJMMjIgNmMwLTEuMS0uOS0yLTItMkg0Yy0xLjEgMC0yIC45LTIgMnYxMGMwIDEuMS45IDIgMiAySDB2MmgyNHYtMmgtNHpNNCA2aDE2djEwSDRWNnoiLz48L3N2Zz4=);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-computer-x {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+PHN0eWxlPi5zdDB7ZmlsbDojOUU5RTlFfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTE1IDEzLjVjLjggMCAxLjUtLjcgMS41LTEuNVY0LjVjMC0uOC0uNy0xLjUtMS41LTEuNUgzYy0uOCAwLTEuNS43LTEuNSAxLjVWMTJjMCAuOC43IDEuNSAxLjUgMS41SDBWMTVoMTh2LTEuNWgtM3ptLTEyLTloMTJWMTJIM1Y0LjV6Ii8+PHBhdGggY2xhc3M9InN0MCIgZD0iTTcuNSA1LjdsLTEuMSAxTDggOC4yIDYuNCA5LjhsMS4xIDFMOSA5LjNsMS41IDEuNSAxLjEtMUwxMCA4LjJsMS42LTEuNS0xLjEtMUw5IDcuMiA3LjUgNS43Ii8+PC9zdmc+);
@@ -133,28 +142,33 @@
 .icon-clipboard,
 [src$="clipboard.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTkgM2gtNC4xOEMxNC40IDEuODQgMTMuMyAxIDEyIDFjLTEuMyAwLTIuNC44NC0yLjgyIDJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yem0tNyAwYy41NSAwIDEgLjQ1IDEgMXMtLjQ1IDEtMSAxLTEtLjQ1LTEtMSAuNDUtMSAxLTF6bTIgMTRIN3YtMmg3djJ6bTMtNEg3di0yaDEwdjJ6bTAtNEg3VjdoMTB2MnoiLz48L3N2Zz4=);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-monitor,
 [src$="monitor.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTE3LjQ1IDE1LjE4TDIyIDcuMzFWMjFIMlYzaDJ2MTIuNTRMOS41IDYgMTYgOS43OGw0LjI0LTcuMzMgMS43MyAxLTUuMjMgOS4wNS02LjUxLTMuNzVMNC4zMSAxOWgyLjI2bDQuMzktNy41NiA2LjQ5IDMuNzR6Ii8+PC9zdmc+);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-terminal,
 [src$="terminal.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTIwIDE5VjdINHYxMmgxNm0wLTE2YTIgMiAwIDAgMSAyIDJ2MTRhMiAyIDAgMCAxLTIgMkg0YTIgMiAwIDAgMS0yLTJWNWEyIDIgMCAwIDEgMi0yaDE2bS03IDE0di0yaDV2MmgtNW0tMy40Mi00TDUuNTcgOUg4LjRsMy4zIDMuM2MuMzkuMzkuMzkgMS4wMyAwIDEuNDJMOC40MiAxN0g1LjU5bDMuOTktNHoiLz48L3N2Zz4=);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-network,
 [src$="network.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTEzIDE4aDFhMSAxIDAgMCAxIDEgMWg3djJoLTdhMSAxIDAgMCAxLTEgMWgtNGExIDEgMCAwIDEtMS0xSDJ2LTJoN2ExIDEgMCAwIDEgMS0xaDF2LTJINGExIDEgMCAwIDEtMS0xdi00YTEgMSAwIDAgMSAxLTFoMTZhMSAxIDAgMCAxIDEgMXY0YTEgMSAwIDAgMS0xIDFoLTd2Mk00IDJoMTZhMSAxIDAgMCAxIDEgMXY0YTEgMSAwIDAgMS0xIDFINGExIDEgMCAwIDEtMS0xVjNhMSAxIDAgMCAxIDEtMW01IDRoMVY0SDl2Mm0wIDhoMXYtMkg5djJNNSA0djJoMlY0SDVtMCA4djJoMnYtMkg1eiIvPjwvc3ZnPg==);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-document,
 .icon-text {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNNiAyYy0xLjEgMC0xLjk5LjktMS45OSAyTDQgMjBjMCAxLjEuODkgMiAxLjk5IDJIMThjMS4xIDAgMi0uOSAyLTJWOGwtNi02SDZ6bTcgN1YzLjVMMTguNSA5SDEzeiIvPjwvc3ZnPg==);
+
 }
 .icon-folder,
 [src$="/directory16.png"],
 [src$="folder.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTEwIDRINGMtMS4xMSAwLTIgLjg5LTIgMnYxMmEyIDIgMCAwIDAgMiAyaDE2YTIgMiAwIDAgMCAyLTJWOGEyIDIgMCAwIDAtMi0yaC04bC0yLTJ6Ii8+PC9zdmc+);
-    filter: invert(70%) sepia(45%) saturate(403%) hue-rotate(110deg) brightness(170%) contrast(70%);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-clock,
 .icon-clock-anime,
@@ -206,6 +220,7 @@
     padding-left: 57.6px !important;
     padding-top: 57.6px !important;
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTcgMTRhMiAyIDAgMCAxLTItMiAyIDIgMCAwIDEgMi0yIDIgMiAwIDAgMSAyIDIgMiAyIDAgMCAxLTIgMm01LjY1LTRBNS45OSA1Ljk5IDAgMCAwIDcgNmE2IDYgMCAwIDAtNiA2IDYgNiAwIDAgMCA2IDYgNS45OSA1Ljk5IDAgMCAwIDUuNjUtNEgxN3Y0aDR2LTRoMnYtNEgxMi42NXoiLz48L3N2Zz4=);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 [src$="confighistory.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMjIuNyAxOWwtOS4xLTkuMWMuOS0yLjMuNC01LTEuNS02LjktMi0yLTUtMi40LTcuNC0xLjNMOSA2IDYgOSAxLjYgNC43Qy40IDcuMS45IDEwLjEgMi45IDEyLjFjMS45IDEuOSA0LjYgMi40IDYuOSAxLjVsOS4xIDkuMWMuNC40IDEgLjQgMS40IDBsMi4zLTIuM2MuNS0uNC41LTEuMS4xLTEuNHoiLz48L3N2Zz4=);
@@ -223,6 +238,7 @@
 .icon-gear,
 [src$="gear.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMyAxNy4yNVYyMWgzLjc1TDE3LjgxIDkuOTRsLTMuNzUtMy43NUwzIDE3LjI1ek0yMC43MSA3LjA0YS45OTYuOTk2IDAgMCAwIDAtMS40MWwtMi4zNC0yLjM0YS45OTYuOTk2IDAgMCAwLTEuNDEgMGwtMS44MyAxLjgzIDMuNzUgMy43NSAxLjgzLTEuODN6Ii8+PC9zdmc+);
+    filter: invert(70%) sepia(45%) saturate(403%) hue-rotate(110deg) brightness(170%) contrast(70%);
 }
 .icon-go-next {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTIgNGwtMS40MSAxLjQxTDE2LjE3IDExSDR2MmgxMi4xN2wtNS41OCA1LjU5TDEyIDIwbDgtOHoiLz48L3N2Zz4=);
@@ -2488,7 +2504,7 @@ a:visited {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #689f38;
+    background-color: #CDF5E8;
     height: 64px;
     width: 250px;
     z-index: 2;
@@ -2525,20 +2541,24 @@ A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
     border: transparent;
 }
 #side-panel .task-link {
-    color: #0C2456;
+    color: #1F252C;
     font-weight: 600;
     box-shadow: none;
 }
 a.task-link:hover {
-    background-color: #e7f6ff !important;
+    background-color: #EAF9FF !important;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    font-weight: 800 !important;
 }
 a.task-link.task-link--active {
-    background-color: #AFCBFD !important;
+    background-color: #CDF5E8 !important;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     font-weight: 600;
+}
+a.task-link.task-link--active:hover {
+    background-color: #EAF9FF !important;
 }
 a.task-link.task-link--active .icon-lg{
     color: #20338B;
@@ -2604,9 +2624,9 @@ table.progress-bar {
 -----------------------------------------------------**/
 .yui-button button,
 #main-panel button {
-    border: 2px solid #029247;
+    border: 2px solid #56A98E;
     background-color: #fff;
-    color: #029247;
+    color: #56A98E;
     text-align: center;
     letter-spacing: 0.5px;
     transition: 0.2s ease-out;
@@ -2624,19 +2644,19 @@ table.progress-bar {
 .yui-button button:hover,
 button:hover,
 #main-panel button:hover{
-    border: 2px solid #029247;
-    background-color: #029247;
+    border: 2px solid #93E9CE;
+    background-color: #93E9CE;
     color: #fff;
 }
 #main-panel span.yui-button.yui-submit-button.submit-button.primary button {
     border: 2px solid transparent;
-    background-color: #029247;
+    background-color: #56A98E;
     color: #fff;
 }
 #main-panel span.yui-button.yui-submit-button.submit-button.primary button:active,
 #main-panel span.yui-button.yui-submit-button.submit-button.primary button:hover:active{
     border: 2px solid transparent;
-    background-color: #005929;
+    background-color: #39725F;
     color: #fff;
 }
 button:hover,
@@ -2678,13 +2698,13 @@ a.model-link.inside.mouseIsOverMenuSelector
 }
 a.yui-submit-button.submit-button
 {
-    background-color: #029247;
-    border-color: #029247
+    background-color: #56A98E;
+    border-color: #56A98E
 }
 a.yui-submit-button.submit-button:hover
 {
-    background-color: #029247;
-    border-color: #029247;
+    background-color: #56A98E;
+    border-color: #56A98E;
     opacity: 0.8;
 }
 /* FOOTER */
@@ -2776,7 +2796,10 @@ table#plugins tr td {
     box-shadow: 5px 3px 3px #8080802e;
     color: #FFF;
 }
-
+.bigtable th {
+    box-shadow: 5px 3px 3px #FFFe;
+    border: none;
+}
 .sortable.pane.bigtable tr:hover {
     background-color: #f5f1ec;
 }
@@ -2793,6 +2816,7 @@ table.bigtable.sortable span.sortarrow,
 #projectstatus.bigtable th a
 {
     color: #022357;
+    border: 5px;
 }
 table#projectstatus tr {
     margin-bottom: 1em;
@@ -2809,11 +2833,12 @@ table#projectstatus tr {
     border-radius: 10px 0 0 10px;
 }
 
-
+/* TABBAR */
 .tabBar .tab a,
-#projectstatus-tabBar .tab a
+#projectstatus-tabBar .tab a,
+.tabBar .tab a.addTab
 {
-    background-color: FFF;
+    background-color: #FFF;
     color:#022357;
     border-color: #022357;
     border-radius: 5px;
@@ -2821,15 +2846,17 @@ table#projectstatus tr {
 .tabBar .tab:hover a,
 #projectstatus-tabBar .tab:hover a
 {
-    background-color: #f5f1ec;
+    background-color: #FFF;
     color:#022357;
-    border: none;
+    border-color: #022357;
+    border-radius: 5px;
 }
 .tabBar .tab.active a,
 #projectstatus-tabBar .tab.active a
 {
-    background-color:  #FFF;
+    background-color: #FFF;
     color:#022357;
+    border-color: #022357;
     border-radius: 5px;
 }
 /**-----------------------------------------------------
@@ -2913,8 +2940,13 @@ div#j-add-item-type-nested-projects.category label {
     color: #060A41;
 }
 
-#main-panel .form-config.tabBarFrame .tab.config-section-activator:hover{
-    background-color: #f5f1ec;
+#main-panel .form-config.tabBarFrame .tab.config-section-activator:hover {
+    background-color: #EAF9FF;
+    color: #060A41;
+}
+
+#main-panel section.manage-page__category a:hover {
+    background-color: #CDF5E8;
     color: #060A41;
 }
 
@@ -2925,4 +2957,26 @@ table.config-table.scrollspy {
 
 table.config-table tr {
     display: flex;
+}
+
+section.manage-page__category dt {
+    color: #101A46;
+}
+
+/**-----------------------------------------------------
+                  BOOTSTRAP OVERRIDE
+-----------------------------------------------------**/
+
+div.alert.alert-info {
+    background-color: #E1F6FF;
+    color: #3991BD;
+}
+
+div.alert.alert-warning {
+    background-color: #FDF6D4;
+}
+
+div.alert.alert-danger {
+    background-color: #EDC5C6;
+    color: #9A4143;
 }
