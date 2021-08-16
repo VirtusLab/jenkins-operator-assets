@@ -1,6 +1,6 @@
 [src$="blue.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjMDA5Njg4IiBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptLTIgMTVsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz48L3N2Zz4=);
-    filter: brightness(0) saturate(100%) invert(34%) sepia(66%) saturate(2644%) hue-rotate(133deg) brightness(87%) contrast(98%);
+    filter: invert(51%) sepia(76%) saturate(222%) hue-rotate(110deg) brightness(99%) contrast(94%);
 }
 [src$="red.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjRjQ0MzM2IiBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMSAxNWgtMnYtMmgydjJ6bTAtNGgtMlY3aDJ2NnoiLz48L3N2Zz4=);
@@ -151,6 +151,7 @@
 .icon-clock-anime,
 [src$="clock.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTAgMTYuNWw2LTQuNS02LTQuNXY5ek0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHoiLz48L3N2Zz4=);
+    filter: brightness(100) saturate(0%) invert(0%) sepia(0%) saturate(0%) hue-rotate(359deg) brightness(92%) contrast(122%);
 }
 .icon-folder-delete,
 [src$="edit-delete.png"] {
@@ -2423,13 +2424,32 @@
 
 body {
     font-family: Roboto, sans-serif !important;
-    background-color: #fff;
+    background-color: #FFF;
 }
+
 #header {
     height: 64px;
-    background-color: #029247;
+    background-color: #FFF;
     letter-spacing: 1px;
     padding: 0 10px;
+}
+
+#header span {
+    color: #0567FF;
+}
+
+#header span.am-monitor__count {
+    color: #FFF;
+}
+
+#header svg.svg-icon {
+    color: #0567FF;
+}
+
+#header #search-box {
+
+    box-shadow: inset 0 0 5px 3px #8888883b;
+    border-radius: 8px;
 }
 /**-----------------------------------------------------
                         LINKS
@@ -2439,7 +2459,7 @@ a:hover,
 a:link,
 a:visited {
     text-decoration: none !important;
-    color: #060A41;
+    color: #BDEEFF;
 }
 #visible-am-container #visible-am-list a,
 #visible-am-container #visible-am-list a:focus,
@@ -2491,6 +2511,9 @@ A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
 /**-----------------------------------------------------
                         MENU
 -----------------------------------------------------**/
+#side-panel {
+    border: transparent;
+}
 #side-panel .task-link {
     color: #060A41;
     box-shadow: none;
@@ -2726,13 +2749,20 @@ li.yuimenuitem-selected {
     border-collapse: separate;
     border-spacing: 0 5px;
 }
+[src$="clock.png"] {
+    color: #FFF;
+
+}
+
 .bigtable tr,
 table#projectstatus tr td,
 table#plugins tr td {
-    background-color:#FEF8F1;
+    background-color: #022357;
     border-color: transparent;
     box-shadow: 5px 3px 3px #8080802e;
+    color: #FFF;
 }
+
 .sortable.pane.bigtable tr:hover {
     background-color: #f5f1ec;
 }
@@ -2740,7 +2770,7 @@ table#plugins tr td {
 .bigtable .pane-header,
 .bigtable th
 {
-    background-color: #FCEFDF;
+    background-color: #FFF;
     margin: 0;
     border: none;
 }
@@ -2748,7 +2778,7 @@ table.bigtable.sortable a.sortheader,
 table.bigtable.sortable span.sortarrow,
 #projectstatus.bigtable th a
 {
-    color: #060A41;
+    color: #022357;
 }
 table#projectstatus tr {
     margin-bottom: 1em;
@@ -2758,30 +2788,35 @@ table#projectstatus tr {
 .bigtable tr:last-child td {
     border: none;
 }
-/* TABS OVER TABLE */
-div.tabBar {
-    margin-bottom: -5px;
+.bigtable tr td:last-child {
+    border-radius: 0 10px 10px 0;
 }
+.bigtable tr td:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+
 .tabBar .tab a,
 #projectstatus-tabBar .tab a
 {
-    background-color: #FEF8F1;
-    color:#060A41;
-    border: none;
+    background-color: FFF;
+    color:#022357;
+    border-color: #022357;
+    border-radius: 5px;
 }
 .tabBar .tab:hover a,
 #projectstatus-tabBar .tab:hover a
 {
     background-color: #f5f1ec;
-    color:#060A41;
+    color:#022357;
     border: none;
 }
 .tabBar .tab.active a,
 #projectstatus-tabBar .tab.active a
 {
-    background-color:  #FCEFDF;
-    color:#060A41;
-    border: none;
+    background-color:  #FFF;
+    color:#022357;
+    border-radius: 5px;
 }
 /**-----------------------------------------------------
                     PIPELINE FORM
