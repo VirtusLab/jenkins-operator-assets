@@ -2485,7 +2485,7 @@ a:hover,
 a:link,
 a:visited {
     text-decoration: none !important;
-    color: #BDEEFF;
+    color: #DEF7FF;
 }
 #visible-am-container #visible-am-list a,
 #visible-am-container #visible-am-list a:focus,
@@ -2719,47 +2719,61 @@ a.yui-submit-button.submit-button:hover
 .console-output {
     padding: 10px 20px;
 }
+
 .ace_editor {
     font: 12px / normal Roboto Mono, monospace;
 }
+
 [style^="color:gray"] {
     color: #9e9e9e !important;
 }
+
 [style^="color:red"] {
     color: red !important;
 }
+
 pre a {
     cursor: pointer !important;
 }
+
 #console-outline-body > li {
     list-style-type: none;
 }
+
 .left-bar {
     top: 27px !important;
     left: 16px !important;
 }
+
 li.yuimenuitem-selected {
     background-color: #CEEAF9 !important;
     border: none !important;
 }
+
 .yuimenuitem-selected > a {
     color: #060A41;
 }
+
 .comboBoxList {
     color: #263238;
 }
+
 .build-row-cell .pane .build-controls {
     width: 25% !important;
 }
+
 .build-row-cell .pane .build-details {
     width: 45% !important;
 }
+
 .build-row-cell .pane .build-name .display-name {
     margin-left: 35% !important;
 }
+
 .manage-option:hover{
     border-color: white;
 }
+
 .manage-option a:hover {
     background-color: #DFEBF2;
     border-radius: 15px;
@@ -2783,6 +2797,7 @@ li.yuimenuitem-selected {
     border-collapse: separate;
     border-spacing: 0 5px;
 }
+
 [src$="clock.png"] {
     color: #FFF;
 
@@ -2796,13 +2811,16 @@ table#plugins tr td {
     box-shadow: 5px 3px 3px #8080802e;
     color: #FFF;
 }
+
 .bigtable th {
     box-shadow: 5px 3px 3px #FFFe;
     border: none;
 }
+
 .sortable.pane.bigtable tr:hover {
     background-color: #f5f1ec;
 }
+
 #projectstatus.bigtable th,
 .bigtable .pane-header,
 .bigtable th
@@ -2811,6 +2829,7 @@ table#plugins tr td {
     margin: 0;
     border: none;
 }
+
 table.bigtable.sortable a.sortheader,
 table.bigtable.sortable span.sortarrow,
 #projectstatus.bigtable th a
@@ -2818,19 +2837,27 @@ table.bigtable.sortable span.sortarrow,
     color: #022357;
     border: 5px;
 }
+
 table#projectstatus tr {
     margin-bottom: 1em;
     margin-top: 1em;
 }
+
 .bigtable tr td,
 .bigtable tr:last-child td {
     border: none;
 }
+
 .bigtable tr td:last-child {
     border-radius: 0 10px 10px 0;
 }
+
 .bigtable tr td:first-child {
     border-radius: 10px 0 0 10px;
+}
+
+table#projectstatus tr:hover > td {
+    background-color: #16357E !important;
 }
 
 /* TABBAR */
@@ -2843,6 +2870,7 @@ table#projectstatus tr {
     border-color: #022357;
     border-radius: 5px;
 }
+
 .tabBar .tab:hover a,
 #projectstatus-tabBar .tab:hover a
 {
@@ -2851,6 +2879,7 @@ table#projectstatus tr {
     border-color: #022357;
     border-radius: 5px;
 }
+
 .tabBar .tab.active a,
 #projectstatus-tabBar .tab.active a
 {
@@ -2859,76 +2888,122 @@ table#projectstatus tr {
     border-color: #022357;
     border-radius: 5px;
 }
+
 /**-----------------------------------------------------
                     PIPELINE FORM
 -----------------------------------------------------**/
 input.setting-input, textarea.setting-input,
-select.setting-input {
+select.setting-input
+{
     border: 2px solid #CEEAF9;
 }
+
+#add-item-panel form > .header {
+    border: none;
+}
+
+#add-item-panel .categories {
+    border: none;
+}
+
 #add-item-panel .categories .category,
 #main-panel form.jenkins-config
 {
-    background-color: #182669;
-    color: #98E0FE;
-
+    background-color: #FFF;
+    color: #1F252C;
 }
+
+#add-item-panel label.h3,
+#add-item-panel span {
+    color: #101A46;
+}
+
 .add-item-name, #add-item-panel .item-copy,
 #add-item-panel form > .footer,
 .form-config.tabBarFrame
 {
-    background-color: #0A112F;
+    background-color: #FFF;
     border: none;
     color: #98E0FE;
 }
+
 div#j-add-item-type-standalone-projects.category,
-div#j-add-item-type-nested-projects.category{
+div#j-add-item-type-nested-projects.category {
     margin: 0px;
     padding: 0 0 0 0;
     border: none;
 }
+
 div#j-add-item-type-standalone-projects.category label,
 div#j-add-item-type-nested-projects.category label {
     color: #98E0FE;
 }
-.j-item-options li{
+
+.j-item-options li {
     margin: 0;
     padding-top: 15px;
     padding-bottom: 15px;
+    border: 2px solid #FFF;
 }
 
 .j-item-options li:hover{
     border-radius: 15px;
-    border-color: transparent;
+    border: 2px solid #C7DDFF;
     background-color: white;
 }
+
+.j-item-options li:hover, .j-item-options li:focus {
+    background: none;
+}
+
 .j-item-options li[aria-checked="true"],
 .j-item-options li:active,
+.j-item-options li:link:hover,
 .j-item-options li:focus,
+.j-item-options li:hover:active:focus,
 .j-item-options li:hover:active,
 .j-item-options li:hover:focus
 {
     border-radius: 15px;
-    border-color: #CEEAF9;
-    background-color: white;
+    border-color: #B5F1DE;
+    background-color: #B5F1DE;
+    box-shadow: none;
 }
-#add-item-panel input
-{
-    border: 2px solid #C4A26F;
-    border-radius: 5px;
 
-}
-#createItem input#name
+
+#main-panel input
 {
     height: 35px;
     line-height: 35px;
     font-weight: 600;
     font-size: 16px;
-}
-#main-panel input
-{
     border: 2px solid #CEEAF9;
     border-radius: 5px;
+}
+
+#main-panel input[type="text"]
+{
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #C7DDFF;
+    background-color: #FFF !important;
+    border-radius: 5px;
+}
+
+#createItem label {
+    color: #1F252C;
+}
+
+#main-panel input:focus,
+#main-panel input:active,
+#main-panel input[type="text"]:focus,
+#main-panel input[type="text"]:active
+{
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #15318D;
+    border-radius: 5px;
+    background-color: #FFF !important;
 }
 
 /**-----------------------------------------------------
