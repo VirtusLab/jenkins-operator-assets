@@ -4,11 +4,11 @@
 }
 [src$="red.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjRjQ0MzM2IiBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMSAxNWgtMnYtMmgydjJ6bTAtNGgtMlY3aDJ2NnoiLz48L3N2Zz4=);
-    filter: brightness(0) saturate(100%) invert(27%) sepia(94%) saturate(7208%) hue-rotate(359deg) brightness(92%) contrast(122%);
+    filter: invert(50%) sepia(55%) saturate(6657%) hue-rotate(331deg) brightness(85%) contrast(103%);
 }
 [src$="yellow.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjRkZDMTA3IiBkPSJNMSAyMWgyMkwxMiAyIDEgMjF6bTEyLTNoLTJ2LTJoMnYyem0wLTRoLTJ2LTRoMnY0eiIvPjwvc3ZnPg==);
-    filter: brightness(0) saturate(100%) invert(83%) sepia(39%) saturate(905%) hue-rotate(355deg) brightness(102%) contrast(87%);
+    filter: invert(51%) sepia(44%) saturate(1536%) hue-rotate(4deg) brightness(111%) contrast(101%);
 }
 [src$="aborted.png"],
 [src$="disabled.png"],
@@ -46,9 +46,8 @@
 .icon-nobuilt-anime,
 [src$="grey_anime.gif"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTIgNnYzbDQtNC00LTR2M2MtNC40MiAwLTggMy41OC04IDggMCAxLjU3LjQ2IDMuMDMgMS4yNCA0LjI2TDYuNyAxNC44QTUuODcgNS44NyAwIDAgMSA2IDEyYzAtMy4zMSAyLjY5LTYgNi02em02Ljc2IDEuNzRMMTcuMyA5LjJjLjQ0Ljg0LjcgMS43OS43IDIuOCAwIDMuMzEtMi42OSA2LTYgNnYtM2wtNCA0IDQgNHYtM2M0LjQyIDAgOC0zLjU4IDgtOCAwLTEuNTctLjQ2LTMuMDMtMS4yNC00LjI2eiIvPjwvc3ZnPg==);
-    filter: brightness(0) saturate(100%) invert(34%) sepia(66%) saturate(2644%) hue-rotate(133deg) brightness(87%) contrast(98%);
+    filter: invert(51%) sepia(76%) saturate(222%) hue-rotate(110deg) brightness(99%) contrast(94%);
 }
-.icon-yellow-anime,
 [src$="yellow_anime.gif"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjRkZDMTA3IiBkPSJNMTIgNnYzbDQtNC00LTR2M2MtNC40MiAwLTggMy41OC04IDggMCAxLjU3LjQ2IDMuMDMgMS4yNCA0LjI2TDYuNyAxNC44QTUuODcgNS44NyAwIDAgMSA2IDEyYzAtMy4zMSAyLjY5LTYgNi02em02Ljc2IDEuNzRMMTcuMyA5LjJjLjQ0Ljg0LjcgMS43OS43IDIuOCAwIDMuMzEtMi42OSA2LTYgNnYtM2wtNCA0IDQgNHYtM2M0LjQyIDAgOC0zLjU4IDgtOCAwLTEuNTctLjQ2LTMuMDMtMS4yNC00LjI2eiIvPjwvc3ZnPg==);
     filter: brightness(0) saturate(100%) invert(83%) sepia(39%) saturate(905%) hue-rotate(355deg) brightness(102%) contrast(87%);
@@ -197,17 +196,21 @@
 .icon-search,
 [src$="search.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTEgMTdoMnYtNmgtMnY2em0xLTE1QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHpNMTEgOWgyVjdoLTJ2MnoiLz48L3N2Zz4=);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-stop {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTE1LjQgMi42NVExOCA1LjM1IDE4IDlxMCAzLjc1LTIuNiA2LjRRMTIuNzUgMTggOSAxOHEtMy43NSAwLTYuMzUtMi42UTAgMTIuNzUgMCA5cTAtMy43NSAyLjY1LTYuMzVRNS4yNSAwIDkgMHEzLjc1IDAgNi40IDIuNjVNMTYuMiA5cTAtMi45LTIuMS01UTExLjk1IDEuOCA5IDEuOCA2IDEuOCAzLjkgNCAxLjc1IDYuMSAxLjc1IDlxMCAzIDIuMTUgNS4xUTYgMTYuMiA5IDE2LjJxMi45NSAwIDUuMS0yLjFRMTYuMiAxMiAxNi4yIDlNNS4yNSAxMi43NXYtNy41aDcuNXY3LjVoLTcuNSIvPjwvc3ZnPg==);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 [src$="/move.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNOSAxOHYtM0g1di00aDRWOGw1IDVtNi03aC04bC0yLTJINGMtMS4xMSAwLTIgLjg5LTIgMnYxMmEyIDIgMCAwIDAgMiAyaDE2YTIgMiAwIDAgMCAyLTJWOGEyIDIgMCAwIDAtMi0yeiIvPjwvc3ZnPg==);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 [src$="/atom.gif"] {
     padding-left: 28.8px !important;
     padding-top: 28.8px !important;
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iI0ZGQzEwNyIgZD0iTTUgM2gxNGEyIDIgMCAwIDEgMiAydjE0YTIgMiAwIDAgMS0yIDJINWEyIDIgMCAwIDEtMi0yVjVhMiAyIDAgMCAxIDItMm0yLjUgMTJBMS41IDEuNSAwIDAgMCA2IDE2LjUgMS41IDEuNSAwIDAgMCA3LjUgMTggMS41IDEuNSAwIDAgMCA5IDE2LjUgMS41IDEuNSAwIDAgMCA3LjUgMTVNNiAxMHYyYTYgNiAwIDAgMSA2IDZoMmE4IDggMCAwIDAtOC04bTAtNHYyYTEwIDEwIDAgMCAxIDEwIDEwaDJBMTIgMTIgMCAwIDAgNiA2eiIvPjwvc3ZnPg==);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 [src$="/atom.gif"],
 [src$="credentials.png"] {
@@ -224,6 +227,7 @@
 }
 [src$="confighistory.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMjIuNyAxOWwtOS4xLTkuMWMuOS0yLjMuNC01LTEuNS02LjktMi0yLTUtMi40LTcuNC0xLjNMOSA2IDYgOSAxLjYgNC43Qy40IDcuMS45IDEwLjEgMi45IDEyLjFjMS45IDEuOSA0LjYgMi40IDYuOSAxLjVsOS4xIDkuMWMuNC40IDEgLjQgMS40IDBsMi4zLTIuM2MuNS0uNC41LTEuMS4xLTEuNHoiLz48L3N2Zz4=);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 [src$="domain.png"] {
     padding-left: 57.6px !important;
@@ -233,6 +237,7 @@
     background-size: 100% 100% !important;
     font-size: 0 !important;
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTE4IDE1aC0ydjJoMm0wLTZoLTJ2MmgybTIgNmgtOHYtMmgydi0yaC0ydi0yaDJ2LTJoLTJWOWg4TTEwIDdIOFY1aDJtMCA2SDhWOWgybTAgNkg4di0yaDJtMCA2SDh2LTJoMk02IDdINFY1aDJtMCA2SDRWOWgybTAgNkg0di0yaDJtMCA2SDR2LTJoMm02LTEwVjNIMnYxOGgyMFY3SDEyeiIvPjwvc3ZnPg==);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 #description-link img,
 .icon-gear,
@@ -242,6 +247,7 @@
 }
 .icon-go-next {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTIgNGwtMS40MSAxLjQxTDE2LjE3IDExSDR2MmgxMi4xN2wtNS41OCA1LjU5TDEyIDIwbDgtOHoiLz48L3N2Zz4=);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 [src$="diskusage48.png"] {
     padding-left: 57.6px !important;
@@ -2481,6 +2487,10 @@ body {
 #main-panel {
     background-color: #F0F4F8;
 }
+
+#visible-sec-am-container a:hover {
+    background-color: #FFF;
+}
 /**-----------------------------------------------------
                         LINKS
 -----------------------------------------------------**/
@@ -2542,40 +2552,43 @@ A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
                         MENU
 -----------------------------------------------------**/
 #side-panel {
-    border: transparent;
+    border: none;
 }
 
 #side-panel .task-link {
-    color: #5064AA;
+    color: 4d545d;
     font-weight: 600;
     font-size: 15px;
     box-shadow: none;
+    font-stretch: expanded;
 }
 
 #side-panel .task-link:hover {
     color: #0C2456;
 }
 
+#side-panel .pane tr {
+    border-color: white;
+    outline: none;
+    box-shadow: none;
+}
 
 #side-panel .task-link:hover img {
     filter: invert(32%) sepia(64%) saturate(6437%) hue-rotate(201deg) brightness(50%) contrast(98%) !important;
 }
 
+#side-panel .pane-header tr td{
+    background-color: #F8F8F8;
+
+}
+
 a.task-link:hover {
     background-color: #C7F5E9 !important;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
     font-weight: 800 !important;
 }
 a.task-link.task-link--active {
     background-color: #F0F4F8 !important;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
     font-weight: 600;
-}
-
-a.task-link.task-link--active:hover {
-    background-color: #EAF9FF !important;
 }
 
 a.task-link.task-link--active .icon-lg{
@@ -2806,16 +2819,6 @@ li.yuimenuitem-selected {
     margin-left: 35% !important;
 }
 
-.manage-option:hover{
-    border-color: white;
-}
-
-.manage-option a:hover {
-    background-color: #DFEBF2;
-    border-radius: 15px;
-    outline: 0;
-}
-
 .manage-option a:active {
     background-color: #CEEAF9;
     border-radius: 15px;
@@ -2826,6 +2829,7 @@ li.yuimenuitem-selected {
 #visible-am-container div#visible-am-list{
     top: 64px;
 }
+
 /**-----------------------------------------------------
                         TABLES
 -----------------------------------------------------**/
@@ -2834,14 +2838,10 @@ li.yuimenuitem-selected {
     border-color: transparent;
     border-collapse: separate;
     border-spacing: 0 5px;
+    padding-bottom: 40px;
 }
 
-[src$="clock.png"] {
-    color: #FFF;
-
-}
-
-.bigtable tr,
+.bigtable tr td,
 table#projectstatus tr td,
 table#plugins tr td {
     background-color: #FFF;
@@ -2850,20 +2850,15 @@ table#plugins tr td {
     color: #022357;
 }
 
-.sortable.pane.bigtable tr:hover {
-    background-color: #f5f1ec;
-}
-
 #projectstatus.bigtable th,
 #projectstatus.bigtable tr.header,
-.bigtable .pane-header,
-.bigtable th
+.sortable .pane .bigtable .pane-header,
+.sortable.pane.bigtable tr th
 {
     box-shadow: none;
-    background-color: #F0F4F8;
+    background-color: #dfe2ea;
     margin: 0;
     border: none;
-    box-shadow: none;
 }
 
 table.bigtable.sortable a.sortheader,
@@ -2892,7 +2887,8 @@ table#projectstatus tr {
     border-radius: 5px 0 0 5px;
 }
 
-table#projectstatus tr:hover > td {
+table#projectstatus tr:hover > td,
+.sortable.pane.bigtable tr:hover {
     background-color: #C7F5E9 !important;
 }
 
@@ -3040,20 +3036,33 @@ div#j-add-item-type-nested-projects.category label {
 /**-----------------------------------------------------
                   JENKINS CONFIG FORM
 -----------------------------------------------------**/
+.jenkins-config-widgets,
+.jenkins-config-widgets .form-config.tabBarFrame {
+    border: none;
+}
 
-#main-panel .form-config.tabBarFrame .tab.config-section-activator{
-    background-color: #FCEFDF;
+#main-panel .form-config.tabBarFrame .tab.config-section-activator {
+    background-color: #FFF;
     color: #060A41;
+    border: 2px solid #060A41;
+    border-radius: 4px;
 }
 
 #main-panel .form-config.tabBarFrame .tab.config-section-activator:hover {
-    background-color: #EAF9FF;
+    background-color: #CDF5E8;
     color: #060A41;
+    border: 2px solid #060A41;
+    border-radius: 2px;
 }
 
 #main-panel section.manage-page__category a:hover {
     background-color: #CDF5E8;
     color: #060A41;
+    border-radius: 8px;
+}
+
+#main-panel .manage-option:hover {
+    border-color: #F0F4F8;
 }
 
 table.config-table.scrollspy {
