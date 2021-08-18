@@ -1253,11 +1253,10 @@
 [src$="yellow_anime.gif"][width="32"] {
     padding-left: 43.2px !important;
     padding-top: 43.2px !important;
-    height: 0 !important;
-    width: 0 !important;
+    /* height: 0 !important; */
+    /* width: 0 !important; */
     background-size: 100% 100% !important;
     font-size: 0 !important;
-
 }
 #description-link img.icon24x24,
 #description-link img.icon-md,
@@ -2830,6 +2829,10 @@ li.yuimenuitem-selected {
     top: 64px;
 }
 
+#rss-bar span,
+#rss-bar > a {
+    color: #022357;
+}
 /**-----------------------------------------------------
                         TABLES
 -----------------------------------------------------**/
@@ -2921,6 +2924,9 @@ table#projectstatus tr:hover > td,
     border-radius: 5px;
 }
 
+#projectstatus tr td:first-child img {
+    padding-left: 20px !important;
+}
 /**-----------------------------------------------------
                     PIPELINE FORM
 -----------------------------------------------------**/
