@@ -1843,8 +1843,8 @@
 [src$="yellow_anime.gif"][src*="24x"],
 [src$="yellow_anime.gif"][style*="width: 24p"],
 [src$="yellow_anime.gif"][width="24"] {
-    padding-left: 28.8px !important;
-    padding-top: 28.8px !important;
+    padding-left: 20px !important;
+    padding-top: 25px !important;
     height: 0 !important;
     width: 0 !important;
     background-size: 100% 100% !important;
@@ -2477,6 +2477,10 @@ body {
     box-shadow: inset 0 0 5px 3px #8888883b;
     border-radius: 8px;
 }
+
+#main-panel {
+    background-color: #F0F4F8;
+}
 /**-----------------------------------------------------
                         LINKS
 -----------------------------------------------------**/
@@ -2485,7 +2489,7 @@ a:hover,
 a:link,
 a:visited {
     text-decoration: none !important;
-    color: #DEF7FF;
+    color: #0C2456;
 }
 #visible-am-container #visible-am-list a,
 #visible-am-container #visible-am-list a:focus,
@@ -2540,35 +2544,52 @@ A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
 #side-panel {
     border: transparent;
 }
+
 #side-panel .task-link {
-    color: #1F252C;
+    color: #5064AA;
     font-weight: 600;
+    font-size: 15px;
     box-shadow: none;
 }
+
+#side-panel .task-link:hover {
+    color: #0C2456;
+}
+
+
+#side-panel .task-link:hover img {
+    filter: invert(32%) sepia(64%) saturate(6437%) hue-rotate(201deg) brightness(50%) contrast(98%) !important;
+}
+
 a.task-link:hover {
-    background-color: #EAF9FF !important;
+    background-color: #C7F5E9 !important;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     font-weight: 800 !important;
 }
 a.task-link.task-link--active {
-    background-color: #CDF5E8 !important;
+    background-color: #F0F4F8 !important;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     font-weight: 600;
 }
+
 a.task-link.task-link--active:hover {
     background-color: #EAF9FF !important;
 }
+
 a.task-link.task-link--active .icon-lg{
     color: #20338B;
 }
+
 .task-link--active:before{
     border: none;
 }
+
 .bottom-sticker-edge {
     display: none;
 }
+
 .bottom-sticker-inner {
     margin: 0 0 0 -15px;
     padding-left: 15px;
@@ -2580,29 +2601,36 @@ a.task-link.task-link--active .icon-lg{
 #projectstatus tr:hover td {
     background-color: #f0f0f0 !important;
 }
+
 #projectstatus .healthReportDetails table tbody tr:hover td,
 #projectstatus .healthReportDetails table tbody tr td {
     background-color: #fff !important;
     color: #444 !important;
 }
+
 a#jenkins-home-link {
     opacity: 1 !important;
 }
+
 table.progress-bar.red td.progress-bar-done {
     background-color: #f44336 !important;
     border-color: #f44336 !important;
 }
+
 td.progress-bar-done {
     background-color: #009688 !important;
     border-color: #009688 !important;
 }
+
 td.progress-bar-left {
     border: 0 !important;
     background-color: #ccc !important;
 }
+
 table.progress-bar {
     border-color: transparent !important;
 }
+
 #main-panel-content > div:nth-child(2),
 .ygtvlabel,
 .ygtvlabel:hover,
@@ -2610,12 +2638,15 @@ table.progress-bar {
 .ygtvlabel:visited {
     background-color: transparent !important;
 }
+
 #main-panel > pre {
     font-family: Roboto Mono, monospace !important;
 }
+
 #jenkins-name-icon {
     display: none;
 }
+
 #jenkins-head-icon {
     display: none;
 }
@@ -2631,7 +2662,7 @@ table.progress-bar {
     letter-spacing: 0.5px;
     transition: 0.2s ease-out;
     cursor: pointer;
-    border-radius: 2px;
+    border-radius: 1px;
     display: inline-block;
     outline: 0;
     padding: 0 2rem;
@@ -2639,26 +2670,30 @@ table.progress-bar {
     vertical-align: middle;
     -webkit-tap-highlight-color: transparent;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    border-radius: 15px;
+    border-radius: 10px;
 }
+
 .yui-button button:hover,
 button:hover,
 #main-panel button:hover{
-    border: 2px solid #93E9CE;
-    background-color: #93E9CE;
+    border: 2px solid #43AA8E;
+    background-color: #43AA8E;
     color: #fff;
 }
+
 #main-panel span.yui-button.yui-submit-button.submit-button.primary button {
     border: 2px solid transparent;
     background-color: #56A98E;
     color: #fff;
 }
+
 #main-panel span.yui-button.yui-submit-button.submit-button.primary button:active,
 #main-panel span.yui-button.yui-submit-button.submit-button.primary button:hover:active{
     border: 2px solid transparent;
     background-color: #39725F;
     color: #fff;
 }
+
 button:hover,
 #main-panel button:hover,
 .alert.alert-warning button:hover
@@ -2672,6 +2707,7 @@ button:focus
 {
     opacity: 1;
 }
+
 #main-panel .yui-button.danger button
 {
     border: 2px solid red;
@@ -2709,8 +2745,8 @@ a.yui-submit-button.submit-button:hover
 }
 /* FOOTER */
 .footer .btn-decorator {
-    background-color: #d7f1ff80 !important;
-    border-color: #CEEAF9 !important;
+    background-color: white !important;
+    border-color: #FFF !important;
 }
 /**-----------------------------------------------------
                     POP UP MENU
@@ -2779,11 +2815,13 @@ li.yuimenuitem-selected {
     border-radius: 15px;
     outline: 0;
 }
+
 .manage-option a:active {
     background-color: #CEEAF9;
     border-radius: 15px;
     outline: 0;
 }
+
 /* pop up dialbox */
 #visible-am-container div#visible-am-list{
     top: 64px;
@@ -2806,15 +2844,10 @@ li.yuimenuitem-selected {
 .bigtable tr,
 table#projectstatus tr td,
 table#plugins tr td {
-    background-color: #022357;
+    background-color: #FFF;
     border-color: transparent;
     box-shadow: 5px 3px 3px #8080802e;
-    color: #FFF;
-}
-
-.bigtable th {
-    box-shadow: 5px 3px 3px #FFFe;
-    border: none;
+    color: #022357;
 }
 
 .sortable.pane.bigtable tr:hover {
@@ -2822,12 +2855,15 @@ table#plugins tr td {
 }
 
 #projectstatus.bigtable th,
+#projectstatus.bigtable tr.header,
 .bigtable .pane-header,
 .bigtable th
 {
-    background-color: #FFF;
+    box-shadow: none;
+    background-color: #F0F4F8;
     margin: 0;
     border: none;
+    box-shadow: none;
 }
 
 table.bigtable.sortable a.sortheader,
@@ -2849,15 +2885,15 @@ table#projectstatus tr {
 }
 
 .bigtable tr td:last-child {
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 5px 5px 0;
 }
 
 .bigtable tr td:first-child {
-    border-radius: 10px 0 0 10px;
+    border-radius: 5px 0 0 5px;
 }
 
 table#projectstatus tr:hover > td {
-    background-color: #16357E !important;
+    background-color: #C7F5E9 !important;
 }
 
 /* TABBAR */
@@ -2867,8 +2903,8 @@ table#projectstatus tr:hover > td {
 {
     background-color: #FFF;
     color:#022357;
-    border-color: #022357;
-    border-radius: 5px;
+    border: 2px solid #FFF;
+    border-radius: 4px;
 }
 
 .tabBar .tab:hover a,
@@ -2876,7 +2912,7 @@ table#projectstatus tr:hover > td {
 {
     background-color: #FFF;
     color:#022357;
-    border-color: #022357;
+    border: 2px solid #022357;
     border-radius: 5px;
 }
 
@@ -2948,12 +2984,8 @@ div#j-add-item-type-nested-projects.category label {
 
 .j-item-options li:hover{
     border-radius: 15px;
-    border: 2px solid #C7DDFF;
-    background-color: white;
-}
-
-.j-item-options li:hover, .j-item-options li:focus {
-    background: none;
+    border-color: #B5F1DE;
+    background-color: #B5F1DE;
 }
 
 .j-item-options li[aria-checked="true"],
@@ -2965,9 +2997,8 @@ div#j-add-item-type-nested-projects.category label {
 .j-item-options li:hover:focus
 {
     border-radius: 15px;
-    border-color: #B5F1DE;
-    background-color: #B5F1DE;
     box-shadow: none;
+    border: 2px solid #C7DDFF;
 }
 
 
