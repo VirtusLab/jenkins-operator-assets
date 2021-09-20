@@ -42,7 +42,6 @@
 }
 .icon-aborted-anime,
 .icon-grey-anime,
-.icon-nobuilt-anime,
 [src$="grey_anime.gif"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTIgNnYzbDQtNC00LTR2M2MtNC40MiAwLTggMy41OC04IDggMCAxLjU3LjQ2IDMuMDMgMS4yNCA0LjI2TDYuNyAxNC44QTUuODcgNS44NyAwIDAgMSA2IDEyYzAtMy4zMSAyLjY5LTYgNi02em02Ljc2IDEuNzRMMTcuMyA5LjJjLjQ0Ljg0LjcgMS43OS43IDIuOCAwIDMuMzEtMi42OSA2LTYgNnYtM2wtNCA0IDQgNHYtM2M0LjQyIDAgOC0zLjU4IDgtOCAwLTEuNTctLjQ2LTMuMDMtMS4yNC00LjI2eiIvPjwvc3ZnPg==);
     filter: invert(51%) sepia(76%) saturate(222%) hue-rotate(110deg) brightness(99%) contrast(94%);
@@ -133,9 +132,11 @@
 }
 .icon-computer-x {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+PHN0eWxlPi5zdDB7ZmlsbDojOUU5RTlFfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTE1IDEzLjVjLjggMCAxLjUtLjcgMS41LTEuNVY0LjVjMC0uOC0uNy0xLjUtMS41LTEuNUgzYy0uOCAwLTEuNS43LTEuNSAxLjVWMTJjMCAuOC43IDEuNSAxLjUgMS41SDBWMTVoMTh2LTEuNWgtM3ptLTEyLTloMTJWMTJIM1Y0LjV6Ii8+PHBhdGggY2xhc3M9InN0MCIgZD0iTTcuNSA1LjdsLTEuMSAxTDggOC4yIDYuNCA5LjhsMS4xIDFMOSA5LjNsMS41IDEuNSAxLjEtMUwxMCA4LjJsMS42LTEuNS0xLjEtMUw5IDcuMiA3LjUgNS43Ii8+PC9zdmc+);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-new-computer {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+PHN0eWxlPi5zdDB7ZmlsbDojOUU5RTlFfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTE1IDEzLjVjLjggMCAxLjUtLjcgMS41LTEuNVY0LjVjMC0uOC0uNy0xLjUtMS41LTEuNUgzYy0uOCAwLTEuNS43LTEuNSAxLjVWMTJjMCAuOC43IDEuNSAxLjUgMS41SDBWMTVoMTh2LTEuNWgtM3ptLTEyLTloMTJWMTJIM1Y0LjV6bTYuNi43SDguNHYyLjRINnYxLjJoMi40djIuNGgxLjJWOC45SDEyVjcuN0g5LjZWNS4yeiIvPjwvc3ZnPg==);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-clipboard,
 [src$="clipboard.png"] {
@@ -172,25 +173,30 @@
 .icon-clock-anime,
 [src$="clock.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTAgMTYuNWw2LTQuNS02LTQuNXY5ek0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHoiLz48L3N2Zz4=);
-    filter: brightness(100) saturate(0%) invert(0%) sepia(0%) saturate(0%) hue-rotate(359deg) brightness(92%) contrast(122%);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-folder-delete,
 [src$="edit-delete.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTEwIDRsMiAyaDhhMiAyIDAgMCAxIDIgMnYxMGEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMlY2YzAtMS4xMS44OS0yIDItMmg2bTIuNDYgNi44OEwxNC41OSAxM2wtMi4xMyAyLjEyIDEuNDIgMS40MkwxNiAxNC40MWwyLjEyIDIuMTMgMS40Mi0xLjQyTDE3LjQxIDEzbDIuMTMtMi4xMi0xLjQyLTEuNDJMMTYgMTEuNTlsLTIuMTItMi4xMy0xLjQyIDEuNDJ6Ii8+PC9zdmc+);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-previous {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNNiA2aDJ2MTJINnptMy41IDZsOC41IDZWNnoiLz48L3N2Zz4=);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-next {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNNiAxOGw4LjUtNkw2IDZ2MTJ6TTE2IDZ2MTJoMlY2aC0yeiIvPjwvc3ZnPg==);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-save,
 [src$="/save.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTcgM0g1YTIgMiAwIDAgMC0yIDJ2MTRhMiAyIDAgMCAwIDIgMmgxNGMxLjEgMCAyLS45IDItMlY3bC00LTR6bS01IDE2Yy0xLjY2IDAtMy0xLjM0LTMtM3MxLjM0LTMgMy0zIDMgMS4zNCAzIDMtMS4zNCAzLTMgM3ptMy0xMEg1VjVoMTB2NHoiLz48L3N2Zz4=);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-package,
 [src$="package.gif"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iIzlFOUU5RSIgZD0iTTUuMTIgNWwuODEtMWgxMmwuOTQgMU0xMiAxNy41TDYuNSAxMkgxMHYtMmg0djJoMy41TDEyIDE3LjVtOC41NC0xMi4yN2wtMS4zOS0xLjY4QTEuNDUgMS40NSAwIDAgMCAxOCAzSDZjLS40NyAwLS44OC4yMS0xLjE2LjU1TDMuNDYgNS4yM0MzLjE3IDUuNTcgMyA2IDMgNi41VjE5YTIgMiAwIDAgMCAyIDJoMTRhMiAyIDAgMCAwIDItMlY2LjVjMC0uNS0uMTctLjkzLS40Ni0xLjI3eiIvPjwvc3ZnPg==);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-search,
 [src$="search.png"] {
@@ -2551,7 +2557,7 @@ A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
 }
 
 #side-panel .task-link {
-    color: 4d545d;
+    color: #4d545d;
     font-weight: 600;
     font-size: 15px;
     box-shadow: none;
@@ -2670,7 +2676,6 @@ table.progress-bar {
     letter-spacing: 0.5px;
     transition: 0.2s ease-out;
     cursor: pointer;
-    border-radius: 1px;
     display: inline-block;
     outline: 0;
     padding: 0 2rem;
@@ -2963,7 +2968,7 @@ select.setting-input
 
 div#j-add-item-type-standalone-projects.category,
 div#j-add-item-type-nested-projects.category {
-    margin: 0px;
+    margin: 0;
     padding: 0 0 0 0;
     border: none;
 }
@@ -2999,11 +3004,9 @@ div#j-add-item-type-nested-projects.category label {
     border: 2px solid #C7DDFF;
 }
 
-
 #main-panel input
 {
     height: 35px;
-    line-height: 35px;
     font-weight: 600;
     font-size: 16px;
     border: 2px solid #CEEAF9;
