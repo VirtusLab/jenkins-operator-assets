@@ -12,8 +12,7 @@
 }
 [src$="aborted.png"],
 [src$="disabled.png"],
-[src$="grey.png"],
-[src$="nobuilt.png"] {
+[src$="grey.png"]{
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptNSAxMUg3di0yaDEwdjJ6Ii8+PC9zdmc+);
     filter: invert(75%) sepia(4%) saturate(7009%) hue-rotate(180deg) brightness(190%) contrast(90%);
 }
@@ -161,7 +160,7 @@
 .icon-document,
 .icon-text {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNNiAyYy0xLjEgMC0xLjk5LjktMS45OSAyTDQgMjBjMCAxLjEuODkgMiAxLjk5IDJIMThjMS4xIDAgMi0uOSAyLTJWOGwtNi02SDZ6bTcgN1YzLjVMMTguNSA5SDEzeiIvPjwvc3ZnPg==);
-
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-folder,
 [src$="/directory16.png"],
@@ -243,7 +242,7 @@
 .icon-gear,
 [src$="gear.png"] {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMyAxNy4yNVYyMWgzLjc1TDE3LjgxIDkuOTRsLTMuNzUtMy43NUwzIDE3LjI1ek0yMC43MSA3LjA0YS45OTYuOTk2IDAgMCAwIDAtMS40MWwtMi4zNC0yLjM0YS45OTYuOTk2IDAgMCAwLTEuNDEgMGwtMS44MyAxLjgzIDMuNzUgMy43NSAxLjgzLTEuODN6Ii8+PC9zdmc+);
-    filter: invert(70%) sepia(45%) saturate(403%) hue-rotate(110deg) brightness(170%) contrast(70%);
+    filter: invert(32%) sepia(14%) saturate(6437%) hue-rotate(201deg) brightness(90%) contrast(98%);
 }
 .icon-go-next {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOUU5RTlFIiBkPSJNMTIgNGwtMS40MSAxLjQxTDE2LjE3IDExSDR2MmgxMi4xN2wtNS41OCA1LjU5TDEyIDIwbDgtOHoiLz48L3N2Zz4=);
@@ -579,9 +578,6 @@
 [src$="new-package.png"].icon48x48,
 [src$="new-package.png"].icon-xlg,
 [src$="new-package.png"][src*="48x"],
-[src$="nobuilt.png"].icon48x48,
-[src$="nobuilt.png"].icon-xlg,
-[src$="nobuilt.png"][src*="48x"],
 [src$="notepad.png"].icon48x48,
 [src$="notepad.png"].icon-xlg,
 [src$="notepad.png"][src*="48x"],
